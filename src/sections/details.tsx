@@ -1,9 +1,8 @@
 import { FormControl, FormLabel, Input, VStack, Heading, Text, SimpleGrid, GridItem, Select, Button, Checkbox } from "@chakra-ui/react";
-import Head from "next/head";
 
 const Details = () => {
     return (
-        <VStack w="full" h="full" p={10} spacing={10}>
+        <VStack w="full" h="full" p={10} spacing={6}>
             <VStack spacing={3} alignItems="flex-start">
                 <Heading size="2xl">Your details</Heading>
                 <Text>If your already have an account, click here to log in.</Text>
