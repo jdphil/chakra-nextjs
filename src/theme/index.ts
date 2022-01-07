@@ -5,6 +5,7 @@ import {
     withDefaultVariant
 } from "@chakra-ui/react";
 import { mode } from "@chakra-ui/theme-tools";
+import { Dict } from "@chakra-ui/utils";
 
 const inputSelectStyles = {
     variants: {
@@ -55,7 +56,7 @@ const theme = extendTheme(
         components: {
             Button: {
                 variants: {
-                    primary: (props) => ({
+                    primary: (props: Dict<any>) => ({
                         rounded: 'none',
                         ...brandRing,
                         color: mode('white', 'gray.800')(props),
