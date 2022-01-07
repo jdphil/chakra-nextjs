@@ -87,6 +87,7 @@ const theme = extendTheme(
         components: ['Checkbox'],
     }),
     withDefaultVariant({
+        //         @ts-ignore
         variant: 'filled',
         components: ['Input', 'Select'],
     })
