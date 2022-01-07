@@ -37,13 +37,13 @@ const Details = () => {
                 <GridItem colSpan={2}>
                     <FormControl>
                         <FormLabel>Address</FormLabel>
-                        <Input placeholder="6941 Delrose" />
+                        <Input placeholder="6941 Someplace Drive" />
                     </FormControl>
                 </GridItem>
                 <GridItem colSpan={colSpan}>
                     <FormControl>
                         <FormLabel>City</FormLabel>
-                        <Input placeholder="Dallas" />
+                        <Input placeholder="London" />
                     </FormControl>
                 </GridItem>
                 <GridItem colSpan={colSpan}>
